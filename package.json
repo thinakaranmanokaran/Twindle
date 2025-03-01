@@ -1,32 +1,33 @@
 {
-  "name": "twindle",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vt-tw",
+  "version": "1.0.2",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+  "bin": {
+    "vt-tw": "bin/create.js"
   },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.0.9",
-    "canvas-confetti": "^1.9.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0",
-    "react-router-dom": "^7.2.0",
-    "tailwindcss": "^4.0.9"
+  "private": false,
+  "description": "A fully initialized React Vite + Tailwind CSS starter template to kickstart modern front-end projects. This package provides an optimized and minimal boilerplate with fast development, zero-config setup, and best practices.",
+  "keywords": [
+    "react",
+    "vite",
+    "tailwindcss",
+    "react-vite",
+    "starter-template"
+  ],
+  "homepage": "https://github.com/thinakaranmanokaran/Twindle#readme",
+  "bugs": {
+    "url": "https://github.com/thinakaranmanokaran/Twindle/issues"
   },
-  "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.21.0",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "globals": "^15.15.0",
-    "vite": "^6.2.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinakaranmanokaran/Twindle.git"
+  },
+  "license": "MIT",
+  "author": "Thinakaran Manokaran",
+  "files": [
+    "bin",
+    "template",
+    "package.json",
+    "README.md"
+  ]
 }
