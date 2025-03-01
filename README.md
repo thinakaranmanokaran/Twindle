@@ -93,7 +93,7 @@ npm run lint
 ## **👨‍💻 Author**  
 **Thinakaran Manokaran** 🚀  
 GitHub: [@thinakaranmanokaran](https://github.com/thinakaranmanokaran)  
-Portfolio: [@thinakaranmanokaran](https://thinakaranmanokaran.netlify.app)  
+Portfolio: [Thinakaran Manokaran](https://thinakaranmanokaran.netlify.app)  
 
 ---
 

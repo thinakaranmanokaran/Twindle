@@ -1,9 +1,9 @@
 {
   "name": "vt-tw",
-  "version": "1.0.2",
+  "version": "1.1.4",
   "type": "module",
   "bin": {
-    "vt-tw": "bin/create.js"
+    "vt-tw": "./bin/create.js"
   },
   "private": false,
   "description": "A fully initialized React Vite + Tailwind CSS starter template to kickstart modern front-end projects. This package provides an optimized and minimal boilerplate with fast development, zero-config setup, and best practices.",
@@ -29,5 +29,8 @@
     "template",
     "package.json",
     "README.md"
-  ]
+  ],
+  "scripts": {
+    "postinstall": "node bin/create.js"
+  }
 }
