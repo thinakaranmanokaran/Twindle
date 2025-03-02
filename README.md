@@ -4,6 +4,13 @@
 
 🚀 **VT-TW** is a fully initialized **React Vite + Tailwind CSS** starter template, designed for modern front-end projects. It offers **fast development**, **zero-config setup**, and **best practices** to kickstart your next project effortlessly.  
 
+
+<p align="center">
+  <img src="./mockup.gif" alt="mockup-image"  />
+</p>
+
+
+
 ---
 
 ## **✨ Features**  
