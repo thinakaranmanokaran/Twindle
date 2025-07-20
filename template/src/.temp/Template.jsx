@@ -47,15 +47,15 @@ const Template = () => {
             links: [
                 {
                     name: "Developer Portfolio",
-                    url: "https://thinakaranamanokaran.netlify.app/"
+                    url: "https://thinakaranmanokaran.netlify.app/"
                 },
                 {
                     name: "Package",
                     url: "https://www.npmjs.com/package/vt-tw/"
                 },
                 {
-                    name: "React Icons",
-                    url: "https://react-icons.github.io/react-icons/"
+                    name: "Own Site",
+                    url: "https://vt-tw.vercel.app/"
                 }
             ]
         }
@@ -71,7 +71,7 @@ const Template = () => {
     }
 
     function CopyCode() {
-        const code = "npx i vt-tw";
+        const code = "npx vt-tw";
         navigator.clipboard.writeText(code).then(() => {
             setIsCopied(true);
             setTimeout(() => {
@@ -110,7 +110,7 @@ const Template = () => {
                 <div className='flex absolute bottom-4 justify-between w-full items-end px-6'>
                     <div className='w-3/7 h-full '>
                         <div className='mb-8'>
-                            <div className={`text-xl font-mono w-fit p-4 px-12 rounded-2xl ${darkTheme ? "text-white bg-[#ffffff20]" : "text-dark bg-[#00000020]"} flex items-center backdrop-blur-xl space-x-4 relative`}><div>npx i vt<HiMiniMinusSmall className="inline-block -mx-1" />tw </div> <button className='absolute right-2 p-2 text-2xl hover:scale-110 transition-all duration-300 cursor-pointer ' onClick={CopyCode}>{isCopied ? <TbCopyCheckFilled /> : <TbCopy />}</button></div>
+                            <div className={`text-xl font-mono w-fit p-4 px-12 rounded-2xl ${darkTheme ? "text-white bg-[#ffffff20]" : "text-dark bg-[#00000020]"} flex items-center backdrop-blur-xl space-x-4 relative`}><div>npx vt<HiMiniMinusSmall className="inline-block -mx-1" />tw </div> <button className='absolute right-2 p-2 text-2xl hover:scale-110 transition-all duration-300 cursor-pointer ' onClick={CopyCode}>{isCopied ? <TbCopyCheckFilled /> : <TbCopy />}</button></div>
                         </div>
                         <div>
                             {
