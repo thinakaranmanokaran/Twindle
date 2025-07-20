@@ -10,10 +10,16 @@
     src: url(./assets/fonts/para.otf);
 }
 
+@font-face {
+    font-family: number;
+    src: url(./assets/fonts/number.otf);
+}
+
 @theme {
     /* fonts */
     --font-title: "title", sans-serif; 
     --font-para: "para", sans-serif; 
+    --font-number: "number", sans-serif; 
     
     /* colors */
     --color-dark: #0C0C0C; 
