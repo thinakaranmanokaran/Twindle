@@ -16,6 +16,14 @@
 
 A modern React + Vite + Tailwind CSS starter kit.
 
+[![npm version](https://img.shields.io/npm/v/vt-tw?color=blue&label=vt-tw)](https://www.npmjs.com/package/vt-tw)
+[![Vite](https://img.shields.io/badge/Vite-%2335495e.svg?style=flat&logo=vite&logoColor=yellow)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-%2306B6D4.svg?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vt-tw.vercel.app/)
+[![GitHub stars](https://img.shields.io/github/stars/thinakaranmanokaran/Twindle?style=social)](https://github.com/thinakaran13/vt-tw)
+
+
 👉 **Live Demo:** [https://vt-tw.vercel.app](https://vt-tw.vercel.app)
 
 ---
