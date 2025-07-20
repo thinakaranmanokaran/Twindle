@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: title;
+    src: url(./assets/fonts/title.ttf);
+}
+
+@font-face {
+    font-family: para;
+    src: url(./assets/fonts/para.otf);
+}
+
+@theme {
+    /* fonts */
+    --font-title: "title", sans-serif; 
+    --font-para: "para", sans-serif; 
+    
+    /* colors */
+    --color-dark: #0C0C0C; 
+}
+
+.stroked-2 {
+    -webkit-text-stroke: 1px #00000080; /* Stroke width and color */
+    /* letter-spacing:  0.015em;   */
+}
